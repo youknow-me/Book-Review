@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <div>
+        <h1 class = "name">
+            Literary Insights    
+        </h1>
+        <nav class ="navbar">
+        
+            <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;
+            <a href="review.html">Reviews</a> &nbsp;&nbsp;&nbsp;
+            <a href="upload.html">Upload a review</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Search...">
+        <button type="submit">Enter</button><br><br>
+    </nav>    
+        <a href="login.html"><button>Login</button></a>
+        <a href="signup.html"><button>Sign-up</button></a>
+    </div>
+    <br><br>
+    <img src="book-composition-with-open-book_23-2147690555.avif" width="100%" height="400px" alt="banner">
+    <hr>
+</header>
+<body>
+    <h3>
+        To upload a review please fill the form below
+    </h3>
+    <form action="upload.html">
+        <label for="fname">First Name</label><br>
+        <input type="text" name = "fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" name = "lname"><br>
+        <label for="phnum">Phone Number (Optional)</label><br>
+        <input type="number" name = "phnum"><br>
+        <label for="email">E-Mail</label><br>
+        <input type="email" name = "email"><br><br>
+        <h4>Choose a book to write a review</h4>
+        <select class="dropdown" name="dropdown">
+            <option value="B1">The Psychology of Money</option>
+            <option value="B2">A Passage to India</option>
+            <option value="B3">The Prime of Miss Jean Brodie</option>
+            <option value="B4">Think and Grow Rich</option>
+            <option value="B5">Rich Dad Poor Dad</option>
+            <option value="B6">The Power Of Your Subconsious Mind</option>
+
+        </select><br>
+        <h4>Select a Genre</h4>
+        <select class="dropdown" name="dropdown">
+            <option value="Book1">Fiction</option>
+            <option value="Book2">Auto-Biography</option>
+            <option value="Book3">Horror</option>
+            <option value="Book4">Finance</option>
+            <option value="Book5">Money Management</option>
+            <option value="Book6">Psychology</option>
+            <option value="Book7">History</option>
+            </select><br><br>
+
+            <label for="review">Write a Review</label><br>
+            <input type="text" name ="review"><br><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="Reset">
+        
+    </form>
+    <hr>
+</body>
+
+<footer>
+    
+    <nav class ="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="upload.html">Upload a review</a></li>
+        </ul>
+    </nav>    
+    &copy; 2024 Literary Insights
+</footer>
+</html>
